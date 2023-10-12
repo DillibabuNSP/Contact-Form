@@ -1,0 +1,16 @@
+<?xml version= "1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MyContactForm.com">
+    <listeners>
+        <listener class-name="Utilities.Listener"></listener>
+    </listeners>
+    <test name="AllAction">
+
+        <classes>
+            <class name="MyContactFormTestScript"/>
+
+        </classes>
+
+    </test>
+</suite>
